@@ -1,0 +1,155 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: 'Hind', sans-serif;
+    src: local('Hind', sans-serif), url('https://fonts.googleapis.com/css2? family = Hind: wght @ 300 & display = swap');
+}
+
+h1,
+p,
+a {
+    margin: 0;
+    padding: 0;
+    font-family: 'Hind', sans-serif;
+}
+
+p,
+a {
+    font-size: 13px;
+}
+
+a {
+    text-decoration: none;
+    color: #177bfd;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #f7f7f7;
+}
+
+.conatiner-form {
+    width: 375px;
+    display: flex;
+    flex-direction: column;
+}
+
+.conatiner-form img {
+    margin: auto;
+}
+
+form {
+    padding: 30px;
+}
+
+label [type=email],
+label [type=password],
+button {
+    width: 100%;
+}
+
+label {
+    display: block;
+    margin-top: 20px;
+}
+
+input {
+    padding: 8px 7px;
+    margin-top: 3px;
+    border: 1px solid #b3b3b3;
+    border-radius: 3px;
+    outline: none;
+}
+
+input:focus {
+    border: 1px solid #d46145;
+    box-shadow: 0 0 8px #d349139c;
+}
+
+button {
+    margin-top: 15px;
+    padding: 8px;
+    border-radius: 3px;
+}
+
+.login {
+    background: linear-gradient(rgb(255, 215, 36), rgba(255,182,8,1));
+    color: #464646;
+    border: 0;
+    box-shadow: 1px 1px 1px #464646;
+}
+
+.login:hover {
+    background: linear-gradient(rgb(255, 229, 112), rgb(255, 196, 58))
+}
+
+.bt-creat {
+    color: #464646;
+    border: 0;
+    box-shadow: 1px 1px 1px #464646;
+    border-left: 1px solid #c0c0c0;
+    border-top: 1px solid #c0c0c0;
+}
+
+.bt-creat:hover {
+    background-color: #d8d8d8;
+}
+
+.checkbox {
+    display: flex;
+    align-items: center;
+    flex: 1;
+}
+.checkbox p {
+    margin-left: 10px;
+    margin-top: 5px;
+}
+
+.title-email {
+    display: flex;
+    justify-content: space-between;
+}
+
+.formulario {
+    border: 1px solid #b3b3b3;
+    flex: 1;
+    max-width: 360px;
+    border-radius: 6px;
+    margin: 15px;
+    background-color: #fff;
+}
+
+.creat p {
+    text-align: center;
+    position: relative;
+}
+
+.creat p::before {
+    content: '';
+    background-color: #d3d3d3;
+    width: 25%;
+    height: 1.3px;
+    position: absolute;
+    top: 50%;
+    left: 0;
+}
+
+.creat p::after {
+    content: '';
+    background-color: #d3d3d3;
+    width: 25%;
+    height: 1.3px;
+    position: absolute;
+    top: 50%;
+    right: 0;
+}
+
+
+
